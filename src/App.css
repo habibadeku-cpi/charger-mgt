@@ -28,6 +28,56 @@
   color: #61dafb;
 }
 
+.app-menu {
+  background-color: #ececec;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(5px + 1vmin);
+  color: white;
+  padding: 10px;
+}
+
+.app-logo-name {
+  font-size: calc(8px + 1vmin);
+  color: #ff6d29;
+  font-weight: bold;
+  margin-right: 4rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ececec;
+}
+
+.app-menu-list-item {
+  float: left;
+  margin-right: 1rem;
+  padding: 0 !important;
+}
+
+.app-menu-list-item a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.app-menu-list-item a:hover {
+  background-color: #999;
+}
+
+.charger-mgt-container {
+  display: flex;
+  padding: 2rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
